@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "933987485063",
+    "firebase_url": "https://pokas-4c6f1.firebaseio.com",
+    "project_id": "pokas-4c6f1",
+    "storage_bucket": "pokas-4c6f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933987485063:android:4b68d402b1396c0b",
+        "android_client_info": {
+          "package_name": "am.instigatemobile.pokasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933987485063-1h2j51ricgi5fg23upiikf0glsuulild.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "am.instigatemobile.pokasapp",
+            "certificate_hash": "476B7247849FABF870AE5F4ACF7F6CA96CCE1A5E"
+          }
+        },
+        {
+          "client_id": "933987485063-8lduovo0fu1snsjo4eephbspci07col5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlLTIQuq9_JiWyMX_R7QonVMBIK4pXTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933987485063-8lduovo0fu1snsjo4eephbspci07col5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
