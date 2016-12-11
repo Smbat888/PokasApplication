@@ -96,6 +96,7 @@ public class RegisterFragment extends Fragment implements View.OnClickListener {
 
     private void startHomeActivity() {
         Intent intent = new Intent(getActivity(), HomeActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 }
