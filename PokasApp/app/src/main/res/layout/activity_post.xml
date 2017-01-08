@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_menu_add"
+        android:id="@+id/addImage"
+        android:layout_weight="0.45"
+        android:contentDescription="@string/add_image_content_desc" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_post_title"
+        android:ems="10"
+        android:id="@+id/postTitle"
+        android:layout_weight="0.1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="@string/enter_post_desc"
+        android:ems="10"
+        android:id="@+id/postDesc"
+        android:layout_weight="0.1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginBottom="10dp"
+        android:text="@string/post_it"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:id="@+id/submitButton"/>
+
+</LinearLayout>

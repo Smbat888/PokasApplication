@@ -20,10 +20,16 @@
         InstanceID token to logcat.</string>
     <string name="subscribe_to_news">Subscribe To News</string>
     <string name="log_token">Log Token</string>
+    <string name="go_to_blog">Go To Blog</string>
     <string name="msg_subscribed">Subscribed to news topic</string>
     <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_post">Add Post</string>
+    <string name="enter_post_title">Enter Post Title</string>
+    <string name="enter_post_desc">Enter Post Desc...</string>
+    <string name="post_it">Post it</string>
+    <string name="add_image_content_desc">addImage</string>
 
 </resources>

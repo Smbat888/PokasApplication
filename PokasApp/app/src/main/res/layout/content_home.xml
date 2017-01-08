@@ -35,4 +35,13 @@
         android:layout_below="@id/subscribeButton"
         android:text="@string/log_token" />
 
+    <Button
+        android:id="@+id/goToBlog"
+        android:layout_width="@dimen/standard_field_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/logTokenButton"
+        android:text="@string/go_to_blog" />
+
 </RelativeLayout>

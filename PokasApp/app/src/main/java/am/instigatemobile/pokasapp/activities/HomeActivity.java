@@ -76,6 +76,16 @@ public class HomeActivity extends AppCompatActivity {
                 Toast.makeText(HomeActivity.this, msg, Toast.LENGTH_SHORT).show();
             }
         });
+
+        Button goToBlog = (Button) findViewById(R.id.goToBlog);
+        goToBlog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, BlogActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     private void startLoginActivity() {

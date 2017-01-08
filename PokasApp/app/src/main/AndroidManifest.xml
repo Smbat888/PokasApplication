@@ -57,6 +57,9 @@
         </service>
         <!-- [END firebase_iid_service] -->
 
+        <activity android:name=".activities.BlogActivity" />
+        <activity android:name=".activities.PostActivity" />
+
     </application>
 
 </manifest>
